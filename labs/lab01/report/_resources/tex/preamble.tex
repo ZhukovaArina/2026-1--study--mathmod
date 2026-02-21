@@ -8,8 +8,20 @@
     RM={Scale=0.94},SS={Scale=0.94},SScon={Scale=0.94},TT={Scale=MatchLowercase,FakeStretch=0.9},
     DefaultFeatures={Ligatures=Common}
   ]{plex-otf}
-  % \usepackage[Scale=MatchUppercase]{juliamono}
+  \usepackage[Scale=MatchUppercase]{juliamono}
 }{
   %% TinyTeX
   \usepackage{libertine}
 }
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small, % Моноширинный шрифт
+  breaklines=true,
+  showstringspaces=false
+}
+% Если нужно явно задать имя шрифта
+\setmonofont{Liberation Mono}[
+  Scale=MatchLowercase,
+  BoldFont=Liberation Mono Bold,
+  ItalicFont=Liberation Mono Italic
+]
