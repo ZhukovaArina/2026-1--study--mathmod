@@ -1134,48 +1134,54 @@ display:block!important;
 <p>Обобщим ключевой количественный результат проекта:</p>
 <table class="caption-top" style="width:100%;">
 <colgroup>
-<col style="width: 30%">
-<col style="width: 31%">
-<col style="width: 15%">
-<col style="width: 23%">
+<col style="width: 33%">
+<col style="width: 17%">
+<col style="width: 20%">
+<col style="width: 28%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Модель</th>
-<th>Ожидаемое теоретическое <span class="math inline">\(D\)</span></th>
+<th>Ожидаемое <span class="math inline">\(D\)</span></th>
 <th>Полученное <span class="math inline">\(D\)</span></th>
 <th>Причина / особенность</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Классическая DLA (сетка)</strong></td>
+<td>DLA на сетке (<span class="math inline">\(p=1\)</span>)</td>
 <td><span class="math inline">\(1.68\)</span>–<span class="math inline">\(1.74\)</span></td>
-<td><span class="math inline">\(\approx 1.71\)</span></td>
+<td><span class="math inline">\(\approx 1.710\)</span></td>
 <td>Сеточная анизотропия</td>
 </tr>
 <tr class="even">
-<td><strong>Химически-ограниченная</strong></td>
+<td>DLA (наш расчёт)</td>
+<td><span class="math inline">\(1.68\)</span>–<span class="math inline">\(1.74\)</span></td>
+<td><span class="math inline">\(\approx 1.618\)</span></td>
+<td>p=1, N=201</td>
+</tr>
+<tr class="odd">
+<td>Химически-ограниченная DLA</td>
 <td><span class="math inline">\(1.72\)</span>–<span class="math inline">\(1.85\)</span></td>
-<td><span class="math inline">\(\approx 1.80\)</span></td>
+<td><span class="math inline">\(\approx 1.737\)</span></td>
 <td>Более компактные ветви</td>
 </tr>
-<tr class="odd">
-<td><strong>Бессеточная DLA</strong></td>
-<td><span class="math inline">\(1.70\)</span>–<span class="math inline">\(1.72\)</span></td>
-<td><span class="math inline">\(\approx 1.71\)</span></td>
-<td>Изотропность, нет анизотропии</td>
-</tr>
 <tr class="even">
-<td><strong>Баллистическая (граница)</strong></td>
+<td>Бессеточная DLA</td>
+<td><span class="math inline">\(1.70\)</span>–<span class="math inline">\(1.72\)</span></td>
+<td><span class="math inline">\(\approx 1.126\)</span></td>
+<td>Изотропность, нет анизотропии сетки</td>
+</tr>
+<tr class="odd">
+<td>Баллистическая (граница)</td>
 <td><span class="math inline">\(1.25\)</span>–<span class="math inline">\(1.50\)</span></td>
-<td><span class="math inline">\(\approx 1.38\)</span></td>
+<td><span class="math inline">\(\approx 1.307\)</span></td>
 <td>Размерность профиля, не объёма</td>
 </tr>
-<tr class="odd">
-<td><strong>Кластер-кластерная (CCA)</strong></td>
+<tr class="even">
+<td>Кластер-кластерная (CCA)</td>
 <td><span class="math inline">\(1.40\)</span>–<span class="math inline">\(1.60\)</span></td>
-<td><span class="math inline">\(\approx 1.50\)</span></td>
+<td><span class="math inline">\(\approx 0.652\)</span></td>
 <td>Рыхлые открытые структуры</td>
 </tr>
 </tbody>
@@ -1220,9 +1226,9 @@ display:block!important;
 <h2>Интерпретация результатов</h2>
 <ul>
 <li><strong>Классическая DLA (сетка):</strong> значение <span class="math inline">\(D \approx 1.71\)</span> идеально совпадает с классической работой Виттена и Сандера</li>
-<li><strong>Химически-ограниченная:</strong> <span class="math inline">\(D \approx 1.80\)</span> — частицы глубже проникают внутрь кластера из-за низкой вероятности прилипания на выступах, формируя более плотную структуру</li>
-<li><strong>Кластер-кластерная:</strong> <span class="math inline">\(D \approx 1.50\)</span> — самая рыхлая структура, так как слипаются уже готовые крупные агрегаты, создавая большие полости</li>
-<li><strong>Баллистическая:</strong> <span class="math inline">\(D \approx 1.38\)</span> — это размерность шероховатой поверхности (профиля), а не объёмная фрактальная размерность</li>
+<li><strong>Химически-ограниченная:</strong> <span class="math inline">\(D \approx 1.737\)</span> — частицы глубже проникают внутрь кластера из-за низкой вероятности прилипания на выступах, формируя более плотную структуру</li>
+<li><strong>Кластер-кластерная:</strong> <span class="math inline">\(D \approx 0.652\)</span> — самая рыхлая структура, так как слипаются уже готовые крупные агрегаты, создавая большие полости</li>
+<li><strong>Баллистическая:</strong> <span class="math inline">\(D \approx 1.307\)</span> — это размерность шероховатой поверхности (профиля), а не объёмная фрактальная размерность</li>
 </ul>
 <aside class="notes">
 <ul>
